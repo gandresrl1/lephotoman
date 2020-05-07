@@ -56,7 +56,7 @@ body {
 }
 
 .rk-header {
-  background-color: rgb(161, 125, 125) ;
+  background-color: #d3ded3 ;
   position: relative;
   z-index: 5;
 }
@@ -1738,6 +1738,8 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
           align-items: center;
+
+
 }
 .arrow-button svg,
 .arrow-button .arrow-cont-rev,
@@ -1769,11 +1771,13 @@ body {
 .arrow-button--right {
   margin-left: auto;
   margin-right: auto;
+
 }
 @media (min-width: 75em) {
   .arrow-button--right {
     margin-left: auto;
     margin-right: 0;
+   
   }
 }
 .arrow-button--center {
